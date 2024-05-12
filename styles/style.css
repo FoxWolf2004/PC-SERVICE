@@ -1,0 +1,240 @@
+body {
+ background-color: black;
+
+ padding: 0;
+ margin: 0;
+}
+
+header{
+    display: flex;
+
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+h1 {
+    color: #ffffff;
+}
+
+h1,h2,h3,p,a {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    display: block;
+
+    margin: auto;
+
+    font-size: 40px;
+    padding: 0;
+}
+
+.info{
+    color: #ffffff;
+}
+.logo p{
+    display: block;
+    font-size: 15px;
+    color: #ffffff;
+    padding: 0;
+    width: auto;
+    height: auto;
+}
+.ger {
+    color: #00ff22;
+    text-shadow:
+        0 0 7px #006816,
+        0 0 10px #21962a,
+        0 0 15px #021404,
+        0 0 25px rgb(0, 8, 1);
+}
+
+main {
+    display: block;
+
+    width: 100%;
+
+    height: auto;
+}
+
+.poppular{
+    display: flex;
+
+    width: 90%;
+
+    height: auto;
+
+    margin: auto;
+
+    margin-bottom: 50px;
+}
+
+.service-item {
+    display: block;
+    width: 20%;
+    height: auto;
+    margin: auto;
+
+    color: #ffffff;
+    text-align: center;
+
+}
+
+.service-item img {
+    display: block;
+    width: 40%;
+    height: auto;
+    margin: auto;
+
+}
+
+footer {
+    display: flex;
+
+    background-color: #000000;
+    width: 100%;
+
+    height: 100px;
+}
+
+.contact {
+    display: block;
+
+    width: 40%;
+    height: auto;
+
+    margin-top: auto;
+
+    color: #15ff00;
+    padding: 20px;
+}
+address a{
+    color: #15ff00;
+}
+.soc {
+    display: block;
+
+    width: auto;
+    height: auto;
+
+    margin-top: auto;
+    margin-left: auto;
+    padding: 20px;
+    
+}
+
+.info {
+    display: flex;
+
+    width: 100%;
+    height: auto;
+
+
+}
+
+.pc{
+    display: block;
+
+    width: 60%;
+
+    height: auto;
+
+
+}
+
+.pc img{
+    display: block;
+
+    width: 100%;
+    height: auto;
+}
+
+.tre {
+    display: block;
+
+    width: 80%;
+    height: auto;
+
+}
+.inf{
+    display: block;
+
+    width: 50%;
+}
+.tre-item{
+    display: block;
+
+    width: 40%;
+    height: auto;
+
+    float: left;
+    text-align: center;
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+
+.tre-item p{
+    margin-top: 10px;
+}
+
+
+.tre-item img{
+    display: block;
+
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+
+.call {
+    display: block;
+
+    width: 70%;
+    height: auto;
+
+    margin: auto;
+    text-align: center;
+}
+.call h2 {
+    font-size: 1.3em;
+    color: #00ff22;
+}
+.call input {
+    display: block;
+
+    width: 50%;
+    height: 100px;
+
+    margin: auto;
+    border-radius: 20px;
+    font-size: 2em;
+
+    margin-top: 20px;
+    text-align: center;
+    outline: none;
+    border: none;
+}
+
+
+.call button {
+    display: block;
+
+    width: 50%;
+    height: 100px;
+
+    margin: auto;
+    border-radius: 20px;
+    font-size: 2em;
+
+    margin-top: 20px;
+    text-align: center;
+
+    background-color: #00ff22;
+
+    color: #000000;
+
+    outline: none;
+    border: none;
+}
+
